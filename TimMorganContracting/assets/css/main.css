@@ -733,7 +733,6 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: #f0f1f2;
   border-radius: 50px;
   z-index: 1;
   top: 10px;
@@ -765,9 +764,7 @@ section {
   color: var(--color-primary);
 }
 
-.services .service-item:hover .icon:before {
-  background: var(--color-primary);
-}
+
 
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
