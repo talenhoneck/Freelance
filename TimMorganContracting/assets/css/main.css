@@ -671,55 +671,55 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Constructions Section
+# about-us Section
 --------------------------------------------------------------*/
-.constructions .card-item {
+.about-us .card-item {
   border: 1px solid rgba(82, 86, 94, 0.2);
   background: #fff;
   position: relative;
   border-radius: 0;
 }
 
-.constructions .card-item .card-bg {
+.about-us .card-item .card-bg {
   min-height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.constructions .card-item .card-body {
+.about-us .card-item .card-body {
   padding: 30px;
 }
 
-.constructions .card-item h4 {
+.about-us .card-item h4 {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
   color: var(--color-secondary);
 }
 
-.constructions .card-item p {
+.about-us .card-item p {
   color: var(--color-secondary);
   margin: 0;
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# how-it-works Section
 --------------------------------------------------------------*/
-.services .service-item {
+.how-it-works .service-item {
   padding: 40px;
   background: #fff;
   height: 100%;
 }
 
-.services .service-item .icon {
+.how-it-works .service-item .icon {
   width: 48px;
   height: 48px;
   position: relative;
   margin-bottom: 50px;
 }
 
-.services .service-item .icon i {
+.how-it-works .service-item .icon i {
   color: var(--color-secondary);
   font-size: 40px;
   transition: ease-in-out 0.3s;
@@ -728,7 +728,7 @@ section {
   line-height: 1.8;
 }
 
-.services .service-item .icon:before {
+.how-it-works .service-item .icon:before {
   position: absolute;
   content: "";
   height: 100%;
@@ -740,7 +740,7 @@ section {
   transition: 0.3s;
 }
 
-.services .service-item h3 {
+.how-it-works .service-item h3 {
   color: var(--color-default);
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -752,13 +752,13 @@ section {
   transition: 0.3s;
 }
 
-.services .service-item p {
+.how-it-works .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item .readmore {
+.how-it-works .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
   color: var(--color-primary);
@@ -766,7 +766,7 @@ section {
 
 
 
-.services .service-item:hover h3 {
+.how-it-works .service-item:hover h3 {
   border-color: var(--color-primary);
 }
 
@@ -1088,16 +1088,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Alt Services Section
+# What Makes Us Different Section
 --------------------------------------------------------------*/
-.alt-services .img-bg {
+.the-difference .img-bg {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 400px;
 }
 
-.alt-services h3 {
+.the-difference h3 {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-secondary);
@@ -1106,7 +1106,7 @@ section {
   position: relative;
 }
 
-.alt-services h3:after {
+.the-difference h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -1117,11 +1117,11 @@ section {
   bottom: 0;
 }
 
-.alt-services .icon-box {
+.the-difference .icon-box {
   margin-top: 50px;
 }
 
-.alt-services .icon-box i {
+.the-difference .icon-box i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1137,27 +1137,27 @@ section {
   transition: 0.3s;
 }
 
-.alt-services .icon-box:hover i {
+.the-difference .icon-box:hover i {
   background-color: var(--color-primary);
   color: #fff;
 }
 
-.alt-services .icon-box h4 {
+.the-difference .icon-box h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
 }
 
-.alt-services .icon-box h4 a {
+.the-difference .icon-box h4 a {
   color: #000;
   transition: 0.3s;
 }
 
-.alt-services .icon-box h4 a:hover {
+.the-difference .icon-box h4 a:hover {
   color: var(--color-primary);
 }
 
-.alt-services .icon-box p {
+.the-difference .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -1370,24 +1370,24 @@ section {
 /*--------------------------------------------------------------
 # Servie Cards Section
 --------------------------------------------------------------*/
-.services-cards h3 {
+.how-it-works-cards h3 {
   font-size: 20px;
   font-weight: 700;
   color: var(--color-secondary);
 }
 
-.services-cards p {
+.how-it-works-cards p {
   font-size: 15px;
 }
 
-.services-cards ul li {
+.how-it-works-cards ul li {
   display: flex;
   align-items: center;
   font-size: 14px;
   padding-top: 10px;
 }
 
-.services-cards ul li i {
+.how-it-works-cards ul li i {
   font-size: 16px;
   color: var(--color-primary);
   margin-right: 6px;
@@ -1564,13 +1564,13 @@ section {
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.service-details .services-list {
+.service-details .how-it-works-list {
   padding: 10px 30px;
   border: 1px solid #d5d7da;
   margin-bottom: 20px;
 }
 
-.service-details .services-list a {
+.service-details .how-it-works-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1580,16 +1580,16 @@ section {
   transition: 0.3s;
 }
 
-.service-details .services-list a.active {
+.service-details .how-it-works-list a.active {
   font-weight: 700;
   border-color: var(--color-primary);
 }
 
-.service-details .services-list a:hover {
+.service-details .how-it-works-list a:hover {
   border-color: var(--color-primary);
 }
 
-.service-details .services-img {
+.service-details .how-it-works-img {
   margin-bottom: 20px;
 }
 
